@@ -1,0 +1,2 @@
+#! /bin/bash
+gnome-terminal -- bash -c "cd nav_test;source install/setup.bash;ros2 launch bringup navigation.launch.py"
