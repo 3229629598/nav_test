@@ -8,9 +8,13 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     robot_name_in_model = 'fishbot'
     package_name = 'fishbot_description'
-    urdf_name = "fishbot_gazebo.urdf"
-    world_pkg = "rmuc2023"
-    world_name = "rmuc2023.world"
+    #urdf_name = "fishbot_gazebo.urdf"
+    urdf_name="farmbot_gazebo.urdf"
+    # world_pkg = "rmuc2023"
+    # world_name = "rmuc2023.world"
+    world_pkg="fishbot_description"
+    # world_name="fishbot.world"
+    world_name="farm.world"
 
     ld = LaunchDescription()
     pkg_share = FindPackageShare(package=package_name).find(package_name) 
