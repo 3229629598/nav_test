@@ -90,7 +90,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='farm.world名'>
+    <model name='farm_world'>
       <pose>8.76 2.38 0 0 -0 0</pose>
       <link name='Door_0'>
         <collision name='Door_0_Collision'>
@@ -1350,7 +1350,7 @@
       <real_time>44 635999912</real_time>
       <wall_time>1696839237 222841887</wall_time>
       <iterations>44535</iterations>
-      <model name='farm.world名'>
+      <model name='farm_world'>
         <pose>8.76 2.38 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='Door_0'>
